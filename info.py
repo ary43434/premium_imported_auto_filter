@@ -20,14 +20,14 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
-PICS = (environ.get('PICS', 'https://envs.sh/S0I.jpg')).split() #SAMPLE PIC
-NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e20b5fdaf217252964202.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/1f774a8adb603614fc385.mp4")
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/3207ba97e1879873e54ac.jpg'))
-SUBSCRIPTIO = (environ.get('SUBSCRIPTION', 'https://graph.org/file/3207ba97e1879873e54ac.jpg')).split()
+PICS = (environ.get('PICS', 'https://envs.sh/S1E.jpg')).split() #SAMPLE PIC
+NOR_IMG = environ.get("NOR_IMG", "https://envs.sh/S1E.jpg")
+MELCOW_VID = environ.get("MELCOW_VID", "https://envs.sh/S1E.jpg")
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://envs.sh/S1E.jpg'))
+SUBSCRIPTIO = (environ.get('SUBSCRIPTION', 'https://envs.sh/S1E.jpg')).split()
 CODE = (environ.get('CODE', 'https://envs.sh/S0T.jpg'))
-PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/S0T.jpg')).split()
-REFER_PICS = (environ.get("REFER_PICS", "https://graph.org/file/1a2e64aee3d4d10edd930.jpg")).split() 
+PAYPICS = (environ.get('PAYPICS', 'https://graph.org/file/63f78472ec9d5757b9a14.jpg')).split()
+REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/S1E.jpg")).split() 
 
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', '')) # not support
