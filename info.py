@@ -63,9 +63,9 @@ TEXT = environ.get("APPROVED_WELCOME_TEXT", "<b>{mention},\n\nʏᴏᴜʀ ʀᴇǫ
 APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 # Others
-VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
-SHORTLINK_API = environ.get('SHORTLINK_API', '')
+VERIFY = bool(environ.get('VERIFY', True))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'instantearn.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', '32e64da57c0f5b3a3609c7da1b6e8ee1a43266a5')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK',False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
@@ -73,7 +73,7 @@ MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/ary_backups')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/ary_backups')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/ary_backups')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/ary_bots/5')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ: DB')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002063406137')) #Log channel id ( make sure bot is admin )
